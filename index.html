@@ -1,18 +1,221 @@
-<head>
-  <link rel="stylesheet" href="style.css">
-</head>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Freya’s Findings</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <h1>Freya’s Findings</h1>
 
-  <p>Exploring scientific research and news.</p>
+  <header class="site-header">
+    <a href="#" class="logo" aria-label="Freya’s Findings home">
+      <span class="logo-mark" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </span>
+      <span class="logo-text">Freya’s Findings</span>
+    </a>
 
-  <h2>Latest</h2>
-  <p>More content coming soon.</p>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#articles">Articles</a>
+      <a href="#topics">Topics</a>
+      <a href="#resources">Resources</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#newsletter" class="nav-button">Subscribe</a>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="contour contour-left" aria-hidden="true"></div>
+
+      <div class="hero-copy">
+        <p class="eyebrow">Science. Nature. Health.</p>
+        <h1>Finding meaning in the natural world.</h1>
+        <div class="title-rule"></div>
+        <p>
+          Exploring the connections between health, nature and communities —
+          through research, storytelling and a whole lot of curiosity.
+        </p>
+        <a href="#articles" class="primary-button">Explore the latest <span>→</span></a>
+      </div>
+
+      <div class="hero-image">
+        <!-- Swap this URL later for your own copyright-free image -->
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80" alt="Coastal landscape with plants in the foreground" />
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about-section" id="about">
+      <div class="contour contour-right" aria-hidden="true"></div>
+
+      <div class="about-inner">
+        <p class="eyebrow">Hi, I’m Freya</p>
+        <h2>Scientist. Storyteller. Meaning-maker.</h2>
+        <p>
+          I turn complex research into meaningful, accessible insights —
+          bringing evidence and experience together to support healthier planet
+          and healthier lives.
+        </p>
+        <a href="#" class="text-link">More about me <span>→</span></a>
+      </div>
+    </section>
+
+    <!-- SHOAL MOMENT -->
+    <section class="shoal-section" aria-label="Abstract shoal visual divider">
+      <div class="shoal">
+        <span class="fish fish-1"></span>
+        <span class="fish fish-2"></span>
+        <span class="fish fish-3"></span>
+        <span class="fish fish-4"></span>
+        <span class="fish fish-5"></span>
+        <span class="fish fish-6"></span>
+        <span class="fish fish-7"></span>
+        <span class="fish fish-8"></span>
+        <span class="fish fish-9"></span>
+        <span class="fish fish-10"></span>
+        <span class="fish fish-11"></span>
+        <span class="fish fish-12"></span>
+        <span class="fish fish-13"></span>
+        <span class="fish fish-14"></span>
+        <span class="fish fish-15"></span>
+        <span class="fish fish-16"></span>
+        <span class="fish fish-17"></span>
+        <span class="fish fish-18"></span>
+        <span class="fish fish-19"></span>
+        <span class="fish fish-20"></span>
+        <span class="fish fish-21"></span>
+      </div>
+    </section>
+
+    <!-- ARTICLES -->
+    <section class="articles-section" id="articles">
+      <div class="contour contour-articles" aria-hidden="true"></div>
+
+      <div class="section-heading">
+        <p class="eyebrow">Explore the latest</p>
+        <h2>Fresh insights, thoughtfully told.</h2>
+      </div>
+
+      <div class="article-grid">
+
+        <article class="article-card">
+          <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=80" alt="Colourful bowl of vegetables" />
+          <div class="article-content">
+            <p class="category">Health</p>
+            <h3>The gut–brain connection: what science is revealing</h3>
+            <p>New research on how our gut health influences mood, immunity and more.</p>
+            <div class="article-meta">
+              <span>May 12, 2024</span>
+              <span>6 min read</span>
+              <span>→</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=900&q=80" alt="Forest and river landscape" />
+          <div class="article-content">
+            <p class="category">Conservation</p>
+            <h3>Small changes, big impact: nature conservation that works</h3>
+            <p>Why local actions and community-led projects are changing the game.</p>
+            <div class="article-meta">
+              <span>Apr 28, 2024</span>
+              <span>5 min read</span>
+              <span>→</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=900&q=80" alt="Two women talking outdoors" />
+          <div class="article-content">
+            <p class="category">Women’s Health</p>
+            <h3>Why women’s health research still has a long way to go</h3>
+            <p>Exploring the gaps, biases and solutions for a more equitable future.</p>
+            <div class="article-meta">
+              <span>Apr 15, 2024</span>
+              <span>7 min read</span>
+              <span>→</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <a href="#" class="view-all">View all articles <span>→</span></a>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter-section" id="newsletter">
+      <div class="newsletter-loop" aria-hidden="true"></div>
+
+      <div class="newsletter-content">
+        <div>
+          <h2>Stay in the loop</h2>
+          <p>Thoughtful reads, new research and inspiring stories — straight to your inbox.</p>
+        </div>
+
+        <form class="newsletter-form">
+          <label class="sr-only" for="email">Email address</label>
+          <input id="email" type="email" placeholder="Your email address" />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer-brand">
+      <a href="#" class="logo footer-logo">
+        <span class="logo-mark" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+        <span class="logo-text">Freya’s Findings</span>
+      </a>
+      <p>
+        Exploring the connection between science, nature and health —
+        through research, storytelling and curiosity.
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <div>
+        <h4>Explore</h4>
+        <a href="#articles">Articles</a>
+        <a href="#topics">Topics</a>
+        <a href="#resources">Resources</a>
+      </div>
+
+      <div>
+        <h4>About</h4>
+        <a href="#about">About Freya</a>
+        <a href="#">My approach</a>
+        <a href="#contact">Get in touch</a>
+      </div>
+
+      <div>
+        <h4>Connect</h4>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Substack</a>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
