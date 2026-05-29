@@ -27,7 +27,7 @@ body {
     radial-gradient(circle at 10% 15%, rgba(179, 222, 216, 0.18), transparent 28%),
     linear-gradient(180deg, #ffffff 0%, var(--paper) 45%, #ffffff 100%);
   color: var(--text);
-  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: "Young Serif", Georgia, serif;
   line-height: 1.6;
   overflow-x: hidden;
 }
