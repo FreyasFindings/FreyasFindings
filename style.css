@@ -27,7 +27,7 @@ body {
     radial-gradient(circle at 10% 15%, rgba(179, 222, 216, 0.18), transparent 28%),
     linear-gradient(180deg, #ffffff 0%, var(--paper) 45%, #ffffff 100%);
   color: var(--text);
-  font-family: "Young Serif", Georgia, serif;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   line-height: 1.6;
   overflow-x: hidden;
 }
@@ -47,7 +47,7 @@ h2,
 h3 {
   font-family: "Fraunces", Georgia, serif;
   color: var(--text);
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.02;
   margin: 0;
 }
@@ -94,8 +94,9 @@ p {
 }
 
 .logo-text {
-  font-family: "Fraunces", Georgia, serif;
+  font-family: "Young Serif", Georgia, serif;
   font-size: 1.65rem;
+  font-weight: 400;
   line-height: 0.95;
   color: var(--forest);
 }
