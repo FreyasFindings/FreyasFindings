@@ -285,7 +285,7 @@ p {
   width: clamp(300px, 42vw, 600px);
   height: clamp(225px, 31vw, 450px);
   right: clamp(-210px, -14vw, -70px);
-  top: clamp(-70px, -5vw, -30px);
+  top: clamp(-120px, -9vw, -55px);
   background-image: url("assets/contour-right.svg");
   opacity: 0.9;
 }
