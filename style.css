@@ -282,10 +282,10 @@ p {
 
 /* Smaller contour near the intro/about area */
 .contour-right {
-  width: clamp(300px, 42vw, 600px);
-  height: clamp(225px, 31vw, 450px);
-  right: clamp(-210px, -14vw, -70px);
-  top: clamp(-120px, -9vw, -55px);
+  width: clamp(320px, 42vw, 700px);
+  height: clamp(300px, 39vw, 650px);
+  right: clamp(-230px, -14vw, -80px);
+  top: clamp(-120px, -8vw, -50px);
   background-image: url("assets/contour-right.svg");
   opacity: 0.9;
 }
