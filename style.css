@@ -264,49 +264,28 @@ p {
 
 .contour {
   position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   pointer-events: none;
-  opacity: 0.75;
   z-index: 0;
 }
 
-.contour::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    repeating-radial-gradient(
-      ellipse at center,
-      transparent 0 16px,
-      rgba(105, 179, 188, 0.34) 17px 18px,
-      transparent 19px 34px
-    );
-  filter: none;
-}
-
 .contour-left {
-  width: 310px;
-  height: 560px;
+  width: 700px;
+  height: 900px;
   left: -260px;
-  top: 90px;
-  transform: rotate(4deg);
+  top: -90px;
+  background-image: url("assets/contour-left.svg");
 }
 
 .contour-right {
-  width: 330px;
-  height: 230px;
-  right: -120px;
-  bottom: -30px;
-  opacity: 0.48;
-  transform: rotate(-8deg);
-}
-
-.contour-articles {
-  width: 360px;
-  height: 520px;
-  left: -285px;
-  top: 30px;
-  opacity: 0.58;
-  transform: rotate(3deg);
+  width: 600px;
+  height: 450px;
+  right: -160px;
+  top: -90px;
+  background-image: url("assets/contour-right.svg");
+  opacity: 0.9;
 }
 
 /* ABOUT */
