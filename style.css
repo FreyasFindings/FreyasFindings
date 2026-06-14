@@ -271,19 +271,21 @@ p {
   z-index: 0;
 }
 
+/* Large contour near the articles section */
 .contour-left {
-  width: 700px;
-  height: 900px;
-  left: -260px;
-  top: -90px;
+  width: clamp(360px, 52vw, 700px);
+  height: clamp(460px, 66vw, 900px);
+  left: clamp(-220px, -16vw, -80px);
+  top: clamp(-80px, -6vw, -30px);
   background-image: url("assets/contour-left.svg");
 }
 
+/* Smaller contour near the intro/about area */
 .contour-right {
-  width: 600px;
-  height: 450px;
-  right: -160px;
-  top: -90px;
+  width: clamp(300px, 42vw, 600px);
+  height: clamp(225px, 31vw, 450px);
+  right: clamp(-210px, -14vw, -70px);
+  top: clamp(-70px, -5vw, -30px);
   background-image: url("assets/contour-right.svg");
   opacity: 0.9;
 }
