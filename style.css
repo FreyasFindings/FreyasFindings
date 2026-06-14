@@ -271,20 +271,18 @@ p {
   z-index: 0;
 }
 
-/* Large contour near the articles section */
 .contour-left {
   width: clamp(360px, 52vw, 700px);
   height: clamp(460px, 66vw, 900px);
-  left: clamp(-220px, -16vw, -80px);
+  left: min(-80px, calc((var(--max) - 100vw) / 2 - 80px));
   top: clamp(-80px, -6vw, -30px);
   background-image: url("assets/contour-left.svg");
 }
 
-/* Smaller contour near the intro/about area */
 .contour-right {
   width: clamp(320px, 42vw, 700px);
   height: clamp(300px, 39vw, 650px);
-  right: clamp(-230px, -14vw, -80px);
+  right: min(-80px, calc((var(--max) - 100vw) / 2 - 80px));
   top: clamp(-120px, -8vw, -50px);
   background-image: url("assets/contour-right.svg");
   opacity: 0.9;
@@ -294,7 +292,7 @@ p {
 
 .about-section {
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   max-width: var(--max);
   margin: 0 auto;
   padding: 1rem 1.5rem 2rem;
@@ -352,7 +350,7 @@ p {
 
 .articles-section {
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   max-width: var(--max);
   margin: 0 auto;
   padding: clamp(3rem, 6vw, 5rem) 1.5rem 3rem;
