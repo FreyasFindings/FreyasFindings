@@ -699,8 +699,8 @@ p {
 
     .contour-articles-left {
     display: block;
-    width: clamp(360px, 52vw, 700px);
-    height: clamp(460px, 66vw, 900px);
+    width: clamp(540px, 78vw, 1050px);
+    height: clamp(690px, 99vw, 1350px);
     left: min(-80px, calc((var(--max) - 100vw) / 2 - 80px));
     top: clamp(-80px, -6vw, -30px);
     background-image: url("assets/contour-articles-left.svg");
