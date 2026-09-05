@@ -665,5 +665,15 @@ p {
   .newsletter-form button {
     border-radius: 0;
   }
+  
+  .shoal-section {
+    min-height: 190px;
+  }
+
+  .shoal-graphic {
+    width: 760px;
+    max-width: none;
+    
+  }
 }
    
