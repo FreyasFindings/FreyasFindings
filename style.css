@@ -287,7 +287,7 @@ p {
   right: min(-40px, calc((var(--max) - 100vw) / 2 - 40px));
   top: clamp(-360px, -24vw, -190px);
   background-image: url("assets/contour-right.svg");
-  opacity: 0.9;
+  opacity: 0.5;
 }
 
 /* ABOUT */
