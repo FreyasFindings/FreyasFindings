@@ -442,6 +442,8 @@ p {
 }
 
 .view-all {
+  position: relative;
+  z-index: 2;
   margin: 2rem auto 0;
   display: flex;
   width: fit-content;
@@ -681,12 +683,12 @@ p {
     
   }
 
-    .contour-mobile {
+  .contour-mobile {
     display: block;
-    width: 360px;
-    height: 420px;
+    width: 540px;
+    height: 630px;
     right: calc(50% - 50vw);
-    bottom: -80px;
+    bottom: 40px;
     background-image: url("assets/contour-right.svg");
     opacity: 0.5;
   }
