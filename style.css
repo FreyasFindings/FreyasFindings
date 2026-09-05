@@ -688,7 +688,7 @@ p {
     width: 540px;
     height: 630px;
     right: calc(50% - 50vw);
-    bottom: 40px;
+    bottom: -20px;
     background-image: url("assets/contour-right.svg");
     opacity: 0.5;
   }
