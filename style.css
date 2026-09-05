@@ -283,7 +283,7 @@ p {
   width: clamp(360px, 46vw, 760px);
   height: clamp(330px, 42vw, 700px);
   right: min(-40px, calc((var(--max) - 100vw) / 2 - 40px));
-  top: clamp(-260px, -17vw, -130px);
+  top: clamp(-360px, -24vw, -190px);
   background-image: url("assets/contour-right.svg");
   opacity: 0.9;
 }
