@@ -668,6 +668,7 @@ p {
   
   .shoal-section {
     min-height: 190px;
+    justify-content: flex-start;
   }
 
   .shoal-graphic {
