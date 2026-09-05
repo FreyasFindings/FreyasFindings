@@ -703,7 +703,7 @@ p {
     height: clamp(460px, 66vw, 900px);
     left: min(-80px, calc((var(--max) - 100vw) / 2 - 80px));
     top: clamp(-80px, -6vw, -30px);
-    background-image: url("assets/contour-left.svg");
+    background-image: url("assets/contour-articles-left.svg");
     opacity: 0.5;
   }
 }
