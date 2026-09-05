@@ -585,13 +585,21 @@ p {
   font-size: 0.92rem;
 }
 
-/* TEMP HIDE subscribe/newsletter */
-.main-nav .nav-button {
+/* TEMPORARILY HIDE SUBSCRIBE/NEWSLETTER */
+.site-header .nav-button,
+.main-nav .nav-button,
+.main-nav a[href="#subscribe"],
+.main-nav a[href="#newsletter"] {
   display: none;
 }
 
 .newsletter-section {
   display: none;
+}
+
+/* TEMPORARY SPACING WHILE NEWSLETTER IS HIDDEN */
+.articles-section {
+  padding-bottom: clamp(5rem, 8vw, 7rem);
 }
 
 
