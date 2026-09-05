@@ -291,6 +291,10 @@ p {
   opacity: 0.5;
 }
 
+.contour-mobile {
+  display: none;
+}
+
 /* ABOUT */
 
 .about-section {
@@ -675,6 +679,16 @@ p {
     width: 760px;
     max-width: none;
     
+  }
+
+    .contour-mobile {
+    display: block;
+    width: 360px;
+    height: 420px;
+    right: calc(50% - 50vw);
+    bottom: -80px;
+    background-image: url("assets/contour-right.svg");
+    opacity: 0.5;
   }
 }
    
